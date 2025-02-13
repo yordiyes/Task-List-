@@ -3,6 +3,7 @@ import TaskForm from "./components/TaskForm";
 import TaskList from "./Components/TaskList";
 
 const App = () => {
+  // state management to manage the task 
   const [tasks, setTasks] = useState([]);
 
   // Load tasks from localStorage on mount
