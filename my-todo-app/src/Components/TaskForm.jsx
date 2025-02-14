@@ -18,7 +18,7 @@ const TaskForm = ({ addTask }) => {
         placeholder="Enter a task ..."
         value={text}
         onChange={(e) => setText(e.target.value)}
-        className="p-2 border border-gray-300 rounded-l-md"
+        className="p-2 w-2xs border border-gray-300 rounded-l-md"
       />
       <button type="submit" className="bg-blue-500 text-white px-4 rounded-r-md">
         Add
