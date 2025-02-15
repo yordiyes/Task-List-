@@ -11,7 +11,7 @@ const TaskItem = ({ task, toggleTask, deleteTask }) => {
         {task.text}
       </span>
       <button onClick={() => deleteTask(task.id)} className="text-red-500 hover:text-red-700">
-        ❌
+        ❌//delete button 
       </button>
     </li>
   );
