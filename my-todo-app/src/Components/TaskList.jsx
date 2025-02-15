@@ -10,7 +10,7 @@ const TaskList = ({ tasks, toggleTask, deleteTask }) => {
           <TaskItem key={task.id} task={task} toggleTask={toggleTask} deleteTask={deleteTask} />
         ))
       ) : (
-        <p className="text-gray-500 text-center">No tasks yet!</p>
+        <p className="text-gray-600 text-center">No tasks yet!</p>
       )}
     </ul>
   );
